@@ -30,7 +30,7 @@ ctrl    EQU     0x0022          ; define delay variable
         bcf     lock, 0         ; locked (bit0 is clear) - unlocked (bit0 is set)
         
         movlw   D'255'          
-        movwf   ctrl            ;set delay variable value    
+        movwf   ctrl            ; set delay variable value    
         
 loop                            ; main loop
         btfss   PORTA, 1        ; if RA1 pressed
