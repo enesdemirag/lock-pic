@@ -9,4 +9,4 @@ This is a simply locking system controlled by PIC16F628A. User can cycle up and 
 > [PICSimLab](https://sourceforge.net/projects/picsim/) can be used for testing.
 
 ## Flowchart
-<p align="center"><src="flowchart.png"></p>
+<p align="center"><img src="flowchart.png"></p>
